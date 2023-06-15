@@ -17,7 +17,7 @@ public interface PartsDao {
 	 @SqlQuery("select * from parts where id = :id")
 	 public Part getPart(@Bind("id") final int id);
 
-	 @SqlUpdate("insert into parts(name, code) values(:name, :code)")
+	 @SqlUpdate("insert into parts( name, code) values( :name, :code)")
 	 void createPart(@BindBean final Part part);
 
 	 @SqlUpdate("update parts set name = coalesce(:name, name), code = coalesce(:code, code) where id = :id")

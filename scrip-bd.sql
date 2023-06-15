@@ -3,7 +3,7 @@ create database dropwizard_blog;
 use dropwizard_blog
 
 CREATE TABLE parts (
-  id INT PRIMARY KEY,
+  id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL,
   code VARCHAR(255) NOT NULL
 );

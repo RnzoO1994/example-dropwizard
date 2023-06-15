@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "95cb9abe-7f2b-4231-919d-b31bc24f6860",
+		"name": "dropwizard-crud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9532937"
+	},
+	"item": [
+		{
+			"name": "crear parts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "test_token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "test_token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"id\": 1,\r\n \"name\": \"testPartName\",\r\n \"code\": \"testPartCode\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/parts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parts"
+					]
+				},
+				"description": "metodo post\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "actualizar parts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "test_token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "test_token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"id\": 1,\r\n \"name\": \"testPartName\",\r\n \"code\": \"testPartCode\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/parts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parts"
+					]
+				},
+				"description": "metodo post\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "delete parts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "test_token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "test_token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"id\": 1,\r\n \"name\": \"testPartName\",\r\n \"code\": \"testPartCode\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/parts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parts"
+					]
+				},
+				"description": "metodo post\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "obtener todas las parts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "test_token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "test_token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/parts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parts"
+					]
+				},
+				"description": "metodo post\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "obtener todas las parts Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "test_token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "test_token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/parts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parts"
+					]
+				},
+				"description": "metodo post\r\n"
+			},
+			"response": []
+		}
+	]
+}
