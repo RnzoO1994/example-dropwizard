@@ -1,0 +1,28 @@
+# Ignorar archivos de compilación
+*.class
+*.jar
+*.war
+*.ear
+
+ 
+
+# Ignorar directorios y archivos generados por IDEs
+.idea/
+.vscode/
+.gradle/
+/target/
+/out/
+
+# Ignorar archivos de dependencias y directorios de construcción de Maven
+target/
+pom.xml.*
+!pom.xml.template
+
+# Ignorar archivos de dependencias y directorios de construcción de Gradle
+build/
+.gradle/
+!gradle.properties
+
+# Ignorar archivos y directorios específicos
+logs/
+node_modules/
