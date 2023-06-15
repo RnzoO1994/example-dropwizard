@@ -1,0 +1,6 @@
+com\dropwizard\example\resource\PartsResourceTest$TestPartsRepresentation.class
+com\dropwizard\example\AppTest.class
+com\dropwizard\example\resource\PartsResourceTest.class
+com\dropwizard\example\representation\RepresentationTest.class
+com\dropwizard\example\resource\PartsResourceTest$TestPartRepresentation.class
+com\dropwizard\example\resource\PartsResourceTest$TestDeleteRepresentation.class

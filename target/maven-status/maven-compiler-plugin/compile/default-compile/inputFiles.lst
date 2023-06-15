@@ -1,0 +1,12 @@
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\config\DropwizardBlogConfiguration.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\mapper\PartsMapper.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\auth\User.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\DropwizardBlogApplication.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\health\DropwizardBlogApplicationHealthCheck.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\service\PartsService.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\representation\Representation.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\auth\DropwizardBlogAuthenticator.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\model\Part.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\dao\PartsDao.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\auth\DropwizardBlogAuthorizer.java
+C:\Users\renzo\workspace\example-dropwizard\src\main\java\com\dropwizard\example\resource\PartsResource.java
